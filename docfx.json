@@ -1,0 +1,35 @@
+{
+  "build": {
+    "content": [
+      {
+        "src": "docs",
+        "dest": ".",
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "globalMetadata": {
+      "_appName": "Patternode",
+      "_appTitle": "Patternode",
+      "_enableSearch": true,
+      "_disableNavbar": false,
+      "pdf": true
+    }
+  }
+}
